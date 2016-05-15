@@ -5,7 +5,7 @@ Home: https://github.com/axiom-data-science/codar2netcdf
 
 Package license: MIT License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: A utility to convert CODAR total ASCII files into CF NetCDF files.
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/codar2netcdf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/codar2netcdf-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/codar2netcdf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/codar2netcdf-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codar2netcdf/badges/version.svg)](https://anaconda.org/conda-forge/codar2netcdf)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codar2netcdf/badges/downloads.svg)](https://anaconda.org/conda-forge/codar2netcdf)
 
 
 Updating codar2netcdf-feedstock
