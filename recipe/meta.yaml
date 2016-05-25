@@ -1,14 +1,19 @@
+{% set name = "codar2netcdf" %}
+{% set version = "0.0.2" %}
+{% set md5 = "30163273ed1d8e8578249731e6d99e73" %}
+{% set build = 0 %}
+
 package:
-    name: codar2netcdf
-    version: 0.0.1
+    name: {{ name }}
+    version: {{ version }}
 
 source:
-    fn: codar2netcdf-0.0.1.tar.gz
-    url: https://pypi.python.org/packages/source/c/codar2netcdf/codar2netcdf-0.0.1.tar.gz
-    md5: 17f18a793ccd16330f53e67174d0d8bb
+    fn: {{ name }}-{{ version }}.tar.gz
+    url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+    md5: {{ md5 }}
 
 build:
-    number: 0
+    number: {{ build }}
     script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
