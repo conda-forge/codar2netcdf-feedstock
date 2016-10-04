@@ -1,6 +1,6 @@
 {% set name = "codar2netcdf" %}
 {% set version = "0.0.2" %}
-{% set md5 = "30163273ed1d8e8578249731e6d99e73" %}
+{% set sha256 = "41e5e4ff85dc44a638e53f6b54188be2a4b3088d7ce3e0fc299f436452598d0a" %}
 {% set build = 0 %}
 
 package:
@@ -9,8 +9,8 @@ package:
 
 source:
     fn: {{ name }}-{{ version }}.tar.gz
-    url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-    md5: {{ md5 }}
+    url: https://github.com/axiom-data-science/codar2netcdf/archive/{{ version }}.tar.gz
+    sha256: {{ sha256 }}
 
 build:
     number: {{ build }}
@@ -36,7 +36,7 @@ test:
 
 about:
     home: https://github.com/axiom-data-science/codar2netcdf
-    license: MIT License
+    license: MIT
     summary: 'A utility to convert CODAR total ASCII files into CF NetCDF files.'
 
 extra:
