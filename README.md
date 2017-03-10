@@ -11,6 +11,18 @@ Summary: A utility to convert CODAR total ASCII files into CF NetCDF files.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/codar2netcdf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/codar2netcdf-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/codar2netcdf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/codar2netcdf-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codar2netcdf/badges/version.svg)](https://anaconda.org/conda-forge/codar2netcdf)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codar2netcdf/badges/downloads.svg)](https://anaconda.org/conda-forge/codar2netcdf)
+
 Installing codar2netcdf
 =======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `codar2netcdf` available on your p
 ```
 conda search codar2netcdf --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/codar2netcdf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/codar2netcdf-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/codar2netcdf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/codar2netcdf-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codar2netcdf/badges/version.svg)](https://anaconda.org/conda-forge/codar2netcdf)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codar2netcdf/badges/downloads.svg)](https://anaconda.org/conda-forge/codar2netcdf)
 
 
 Updating codar2netcdf-feedstock
