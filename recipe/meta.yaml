@@ -1,6 +1,6 @@
 {% set name = "codar2netcdf" %}
-{% set version = "0.0.2" %}
-{% set sha256 = "41e5e4ff85dc44a638e53f6b54188be2a4b3088d7ce3e0fc299f436452598d0a" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "6a5f20653942c46cfadaec0a4566ecb8340577361b8b3df7edd2a7ca00b86dcc" %}
 {% set build = 0 %}
 
 package:
