@@ -1,45 +1,42 @@
-{% set name = "codar2netcdf" %}
 {% set version = "1.0.0" %}
-{% set sha256 = "6a5f20653942c46cfadaec0a4566ecb8340577361b8b3df7edd2a7ca00b86dcc" %}
-{% set build = 0 %}
 
 package:
-    name: {{ name }}
-    version: {{ version }}
+  name: codar2netcdf
+  version: {{ version }}
 
 source:
-    fn: {{ name }}-{{ version }}.tar.gz
-    url: https://github.com/axiom-data-science/codar2netcdf/archive/{{ version }}.tar.gz
-    sha256: {{ sha256 }}
+  url: https://github.com/axiom-data-science/codar2netcdf/archive/{{ version }}.tar.gz
+  sha256: 6a5f20653942c46cfadaec0a4566ecb8340577361b8b3df7edd2a7ca00b86dcc
 
 build:
-    number: {{ build }}
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - pandas
-        - netcdf4
-        - pytz
-        - python-dateutil
+  build:
+    - python
+    - pip
+  run:
+    - python
+    - pandas
+    - netcdf4
+    - pytz
+    - python-dateutil
 
 test:
-    imports:
-        - codar2netcdf
-        - codar2netcdf.tests
-    requires:
-        - pytest
+  imports:
+    - codar2netcdf
+    - codar2netcdf.tests
+  requires:
+    - pytest
 
 about:
-    home: https://github.com/axiom-data-science/codar2netcdf
-    license: MIT
-    summary: 'A utility to convert CODAR total ASCII files into CF NetCDF files.'
+  home: https://github.com/axiom-data-science/codar2netcdf
+  license: MIT
+  summary: 'A utility to convert CODAR total ASCII files into CF NetCDF files.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
-        - kwilcox
+  recipe-maintainers:
+    - ocefpaf
+    - kwilcox

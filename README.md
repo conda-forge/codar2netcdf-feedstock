@@ -14,14 +14,15 @@ Summary: A utility to convert CODAR total ASCII files into CF NetCDF files.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/codar2netcdf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/codar2netcdf-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/codar2netcdf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/codar2netcdf-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/codar2netcdf-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/codar2netcdf-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codar2netcdf/badges/version.svg)](https://anaconda.org/conda-forge/codar2netcdf)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/codar2netcdf/badges/downloads.svg)](https://anaconda.org/conda-forge/codar2netcdf)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-codar2netcdf-green.svg)](https://anaconda.org/conda-forge/codar2netcdf) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/codar2netcdf.svg)](https://anaconda.org/conda-forge/codar2netcdf) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/codar2netcdf.svg)](https://anaconda.org/conda-forge/codar2netcdf) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/codar2netcdf.svg)](https://anaconda.org/conda-forge/codar2netcdf) |
 
 Installing codar2netcdf
 =======================
