@@ -1,7 +1,7 @@
 {% set name = "codar2netcdf" %}
 {% set version = "1.0.0" %}
 {% set sha256 = "6a5f20653942c46cfadaec0a4566ecb8340577361b8b3df7edd2a7ca00b86dcc" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 package:
     name: {{ name }}
@@ -13,8 +13,9 @@ source:
     sha256: {{ sha256 }}
 
 build:
+    noarch: python
     number: {{ build }}
-    script: python setup.py install --single-version-externally-managed --record record.txt
+    script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
     build:
